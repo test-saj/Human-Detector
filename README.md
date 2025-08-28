@@ -85,8 +85,9 @@ Press q on your keyboard anytime to stop detection and close the window.
 - Works on both live webcam and offline videos
   
 - Demo Video
-  
-![Watch the demo](output_video.mp4)
+
+https://github.com/user-attachments/assets/30f4c927-cfbb-4c75-9926-61253849984e
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
