@@ -1,2 +1,122 @@
-# Human-Detector
-A real-time application that detects persons in webcam streams or video files using the YOLOv8 model. Detected persons are highlighted with bounding boxes and total count displayed on each frame.
+# 👤 Human Detection using YOLOv8
+
+This project demonstrates **real-time human (person) detection** using the **YOLOv8 model** from [Ultralytics](https://github.com/ultralytics/ultralytics).  
+It works on both **webcam streams** and **video files**, highlighting detected persons with bounding boxes and a total count.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📖 Project Overview
+The goal of this project is to build a **real-time person detection system** using the YOLOv8 deep learning model.  
+The system can process input from:
+- A **webcam** (live detection)  
+- A **video file** (offline detection)  
+
+It identifies all persons in each frame, draws bounding boxes, labels them, and counts the total persons detected.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ⚙️ Tools & Technologies
+- **Python 3.8+** – Core programming language  
+- **OpenCV (cv2)** – Video processing and visualization  
+- **YOLOv8 (Ultralytics)** – Deep learning object detection model  
+- **PyWin32** – Windows-specific utilities (mutex handling)  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ✨ Features
+- 🔍 Detect humans in **real-time** using webcam  
+- 🎥 Detect humans from **video files**  
+- 📦 Uses **YOLOv8n / YOLOv8s** (lightweight and accurate)  
+- 📊 Displays total number of persons detected in each frame  
+- ✅ Easy to customize for different YOLOv8 variants  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+├── person_video.py 
+
+├── person_webcam.py 
+
+├── input_video.mp4 
+
+├── output_video.mp4 
+
+├── README.md 
+
+├── yolov8n.pt
+
+└── requirements.txt 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🚀 Usage
+
+After installing the dependencies, you can run the project in two modes:
+
+▶️ Run Detection on Webcam
+
+Start real-time person detection using your laptop/PC webcam:
+
+```bash
+python person_webcam.py 
+```
+
+▶️ Run Detection on a Video File
+
+Run detection on an existing video file:
+
+```bash
+python person_video.py
+```
+
+⏹️ Exit the Program
+
+Press q on your keyboard anytime to stop detection and close the window.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📊 Results
+
+- Persons are detected with bounding boxes and labels (Person 1, Person 2, etc.)
+
+- The total number of persons per frame is displayed
+
+- Works on both live webcam and offline videos
+  
+- Demo Video
+  
+![Watch the demo](output_video.mp4)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📚 References
+
+- https://thedatafrog.com/en/articles/human-detection-video/  
+
+- https://docs.ultralytics.com/tasks/detect/
+
+- https://thesai.org/Downloads/Volume16No5/Paper_14-Human_Detection_and_Tracking_with_YOLO.pdf
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 👤 Author
+
+Muqadas Ejaz
+
+BS Computer Science (AI Specialization)
+
+AI/ML Engineer
+
+Data Science & Gen AI Enthusiast
+
+📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/muqadasejaz/)  
+
+🌐 GitHub: [github.com/muqadasejaz](https://github.com/muqadasejaz)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📎 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
